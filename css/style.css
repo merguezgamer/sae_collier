@@ -1,0 +1,250 @@
+.bordure{
+  margin-top: 20px;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  list-style-type: none;
+  background-color: white ;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.nav{
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom:3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nav a{
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover {
+  background-color: #111;
+  color: white;
+  border-radius: 5px;
+}
+/*css raccourci page sagrada*/
+
+.bordure_sommaire{
+  margin-top: 20px;
+  display: flex;
+  list-style-type: none;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.nav_sommaire{
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom:3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nav_sommaire a{
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius:8px;
+}
+.nav_sommaire a:hover {
+  background-color: #111;
+  color: white;
+  border-radius: 5px;
+}
+
+h1{
+  color:black ;
+  text-align: center;
+}
+h2{
+  color:#2b2828;
+  font-size: xx-large;
+}
+
+p{
+  font-size: xx-large;
+  text-align: justify;
+}
+
+body{
+  background-color:rgb(102, 182, 239);
+}
+
+li{
+  font-size:large;
+  text-align:left;
+  color:black;
+  font-size: x-large;
+}
+
+#rature{
+  text-decoration:line-through;
+  color: black;
+  font-size: medium;
+  display:inline-flex;
+}
+
+.boite{
+  background-color: #f0f0f0;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 12px 12px 5px  rgba(112, 112, 112);
+  padding: 3%;
+  padding-top: 1%;
+}
+
+.flex_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+iframe{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 400px;
+  width: 75%;
+  border-width: 0;
+}
+
+button{
+width: 100%;
+}
+/*css formulaire*/
+/*style des zone de texte */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+/*style des du boutton */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*changer la couleu du boutton quand on le survole */
+input[type=submit]:hover {
+  background-color: rgb(102, 182, 239);
+}
+/*style de la div du formulaire*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+/*case a cocher*/
+
+/* la div */
+.check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: medium;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-bottom: 10px;
+}
+
+/* cache la case par défault du navigateur */
+.check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* cree la case personaliser */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* met en gris le fond de la case quand on passe la souris dessus */
+.check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* quand on coche la case le fond change de couleur */
+.check input:checked ~ .checkmark {
+  background-color: rgb(102, 182, 239);
+}
+
+/* cree un une marque et cache le */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* montrer la marque quand elle est cocher */
+.check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* style de la marque */
+.check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.Tour_eiffel{
+  border-radius:20%;
+
+}
+.itinéraire{
+  border-radius:15%;
+ }
+.hotel{
+  display:inline;
+  border-radius:15%;
+  width:45%;
+}
