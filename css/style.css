@@ -5,7 +5,7 @@
   border-radius: 10px;
   z-index: 10;
   list-style-type: none;
-  background-color: white ;
+  background-color:  #003366;
   position: fixed;
   top: 0;
   width: 95%;
@@ -21,6 +21,7 @@
   border: 2px solid black;
   border-radius: 10px;
   text-align: center;
+  background-color: white;
 }
 
 .nav a{
@@ -70,21 +71,23 @@
 }
 
 h1{
-  color:black ;
+  color:rgb(0, 0, 0) ;
   text-align: center;
 }
 h2{
-  color:#2b2828;
+  color:#000000;
   font-size: xx-large;
 }
 
 p{
   font-size: xx-large;
   text-align: justify;
+  color: rgb(0, 0, 0);
 }
 
 body{
-  background-color:rgb(102, 182, 239);
+  background: rgb(241, 135, 1);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li{
@@ -102,7 +105,7 @@ li{
 }
 
 .boite{
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
